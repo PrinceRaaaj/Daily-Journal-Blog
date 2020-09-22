@@ -1,0 +1,16 @@
+<%- include("partials/header") -%>
+
+
+<section class="text-gray-500 bg-gray-900 body-font">
+  <div class="container px-5 py-16 mx-auto flex flex-wrap items-center">
+    <form action="/" method="post" class="md bg-gray-800  rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+      <h2 class="text-white text-6xl items-center font-medium title-font mb-5">Compose</h2>
+      <input name="postTitle" class="bg-gray-900 rounded border text-white border-gray-900 focus:outline-none focus:border-red-500 text-base px-4 py-2 mb-4" placeholder="Post Title" type="text">
+      <textarea name="postContent" rows="8" cols="80" placeholder="Post Content" class="bg-gray-900 rounded border text-white border-gray-900 focus:outline-none focus:border-red-500 text-base px-4 py-2 mb-4"></textarea>
+      <button name="button" value="compose" class="text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg">Compose</button>
+    </form>
+  </div>
+</section>
+
+
+<%- include("partials/footer") -%>
